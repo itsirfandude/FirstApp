@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/grit" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Description: "
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@+id/image1"
+
+
+        />
+
+    <TextView
+        android:id="@+id/desc_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="We are not just a clothing company. We are not here to do just a business. We sell love, peace and messages worth spreading in the form of T-shirts. "
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_toRightOf="@+id/desc"
+        android:layout_below="@+id/image1"
+
+
+        />
+    <TextView
+        android:id="@+id/Founder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Founder:       "
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@+id/desc_data"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/imran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imran Sheriff"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_toRightOf="@+id/Founder"
+        android:layout_below="@+id/desc_data"
+
+         />
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact:       "
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@+id/Founder"
+
+        />
+
+    <TextView
+        android:id="@+id/contact_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+918190086306"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@+id/imran"
+        android:layout_toRightOf="@+id/contact"
+
+        />
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:     "
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@+id/contact"
+
+
+        />
+
+    <TextView
+        android:id="@+id/loc_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coimbatore"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+
+        android:layout_below="@+id/contact"
+        android:layout_toRightOf="@+id/loc"
+
+
+        />
+
+    <TextView
+        android:id="@+id/Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:           "
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@+id/loc"
+        android:layout_centerVertical="true"
+
+        />
+
+
+    <TextView
+        android:id="@+id/Mail_dat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="griteez@gmail.com"
+        android:fontFamily="sans-serif"
+        android:textColor="#42382E"
+
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:padding="8sp"
+        android:layout_below="@+id/loc"
+        android:layout_toRightOf="@+id/Mail"/>
+
+
+
+
+
+</RelativeLayout>
+
